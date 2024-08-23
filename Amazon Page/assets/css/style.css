@@ -16,7 +16,7 @@ body {
 }
 
 .pd_in_general {
-  padding-inline: 2rem;
+  padding-inline: 1rem;
 }
 
 /* header */
@@ -36,4 +36,29 @@ header nav ul li {
 header nav ul li a {
   color: #e9f8fb;
   text-decoration: none;
+}
+
+/* title */
+
+main {
+  text-align: center;
+}
+
+h2 {
+  background-color: #f56600;
+  color: #e9f8fb;
+  padding: 0.5rem;
+  margin-block: 2rem;
+}
+
+.title {
+  background-image: url(../images/bg-image.png);
+  background-size: 93%;
+  color: #e6ecee;
+  padding-block: 2rem;
+}
+
+h1 {
+  font-size: 2rem;
+  padding-block: 1.5rem;
 }
