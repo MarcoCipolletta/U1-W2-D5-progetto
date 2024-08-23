@@ -1,1 +1,20 @@
 /* Your styles here */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.bg_dark {
+  background-color: #232f3f;
+}
+
+.bg_softdark {
+  background-color: #364759;
+}
+
+.pd_in_general {
+  padding-inline: 2rem;
+}
