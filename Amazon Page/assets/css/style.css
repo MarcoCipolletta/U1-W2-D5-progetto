@@ -72,11 +72,11 @@ h1 {
   text-align: start;
 }
 
-.cards-container p {
+.p_title {
   display: inline-block;
   padding: 1rem;
 }
-.cards-container a {
+.a_title {
   color: #116871;
   text-decoration: none;
   font-size: 0.8rem;
@@ -116,4 +116,12 @@ h1 {
   background-image: url(../images/img_4.jpg);
   background-size: cover;
   background-position: center;
+}
+
+.img img {
+  width: 100%;
+}
+
+.img .p_title {
+  padding-block: 0 1.5rem;
 }
