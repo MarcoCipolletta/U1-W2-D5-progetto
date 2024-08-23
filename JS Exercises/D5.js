@@ -83,10 +83,16 @@ for (let i = 0; i < cars.length; i++) {
 }
 
 console.log("esercizio 6", cars);
+
 /* ESERCIZIO 7
     Scrivi del codice per salvare il primo elemento della proprietà "trims" di ogni auto nel nuovo array "justTrims", sotto definito.
 */
+
 const justTrims = [];
+for (let i = 0; i < cars.length; i++) {
+  justTrims.push(cars[i].trims.shift());
+}
+console.log("Esercizo 7", justTrims);
 
 /* ESERCIZIO 8
     Cicla l'array "cars" e costruisci un if/else statament per mostrare due diversi messaggi in console. Se la prima lettera della proprietà
