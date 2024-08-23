@@ -125,3 +125,22 @@ h1 {
 .img .p_title {
   padding-block: 0 1.5rem;
 }
+
+/* footer */
+
+footer {
+  text-align: center;
+}
+.bcktotop {
+  padding: 1rem;
+}
+.bcktotop a {
+  color: white;
+}
+
+.ft_logo {
+  padding-block: 3.5rem;
+}
+.ft_logo img {
+  width: 150px;
+}
