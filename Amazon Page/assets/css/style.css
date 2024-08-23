@@ -87,8 +87,8 @@ h1 {
   text-align: center;
 }
 .card {
-  height: 250px;
-  width: 200px;
+  height: 350px;
+  width: 280px;
   display: inline-block;
   background-color: black;
   margin-inline: 0.75rem;

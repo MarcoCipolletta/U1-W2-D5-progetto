@@ -193,5 +193,3 @@ for (let i = 0; i < charactersArray.length; i++) {
       break;
   }
 }
-
-console.log(newCharArray);
