@@ -124,3 +124,74 @@ while (numericArray[i] !== 32) {
     es. [f, b, e] --> [6, 2, 5]
 */
 const charactersArray = ["g", "n", "u", "z", "d"];
+const newCharArray = [];
+
+for (let i = 0; i < charactersArray.length; i++) {
+  switch (charactersArray[i]) {
+    case "a":
+      newCharArray.push(1);
+      break;
+    case "b":
+      newCharArray.push(2);
+      break;
+    case "c":
+      newCharArray.push(3);
+      break;
+    case "d":
+      newCharArray.push(4);
+      break;
+    case "e":
+      newCharArray.push(5);
+      break;
+    case "f":
+      newCharArray.push(6);
+      break;
+    case "g":
+      newCharArray.push(7);
+      break;
+    case "h":
+      newCharArray.push(8);
+      break;
+    case "i":
+      newCharArray.push(9);
+      break;
+    case "l":
+      newCharArray.push(10);
+      break;
+    case "m":
+      newCharArray.push(11);
+      break;
+    case "n":
+      newCharArray.push(12);
+      break;
+    case "o":
+      newCharArray.push(13);
+      break;
+    case "p":
+      newCharArray.push(14);
+      break;
+    case "q":
+      newCharArray.push(15);
+      break;
+    case "r":
+      newCharArray.push(16);
+      break;
+    case "s":
+      newCharArray.push(17);
+      break;
+    case "t":
+      newCharArray.push(18);
+      break;
+    case "u":
+      newCharArray.push(19);
+      break;
+    case "v":
+      newCharArray.push(20);
+      break;
+    case "z":
+      newCharArray.push(21);
+      break;
+  }
+}
+
+console.log(newCharArray);
