@@ -1,4 +1,4 @@
-/* Your styles here */
+/* Base style */
 * {
   box-sizing: border-box;
 }
@@ -17,4 +17,23 @@ body {
 
 .pd_in_general {
   padding-inline: 2rem;
+}
+
+/* header */
+
+header img {
+  width: 115px;
+  padding-block: 0.5rem;
+}
+header nav {
+  padding-block: 0.7rem;
+}
+header nav ul li {
+  display: inline;
+  padding-inline-end: 1rem;
+}
+
+header nav ul li a {
+  color: #e9f8fb;
+  text-decoration: none;
 }
