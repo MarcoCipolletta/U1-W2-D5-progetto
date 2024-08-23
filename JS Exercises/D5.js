@@ -99,6 +99,14 @@ console.log("Esercizo 7", justTrims);
     "color" ha valore "b", mostra in console "Fizz". Altrimenti, mostra in console "Buzz".
 */
 
+for (let i = 0; i < cars.length; i++) {
+  if (cars[i].color.startsWith("b")) {
+    console.log("Fizz");
+  } else {
+    console.log("Buzz");
+  }
+}
+
 /* ESERCIZIO 9
     Utilizza un ciclo while per stampare in console i valori del seguente array numerico fino al raggiungimento del numero 32.
 */
