@@ -60,6 +60,11 @@ const cars = [
     trims: ["life", "style", "r-line"]
   }
 ];
+const licensePlates = ["GO329HR", "EF456SH", "FJ789KL"];
+for (let i = 0; i < cars.length; i++) {
+  cars[i].licensePlate = licensePlates[i];
+}
+console.log("esercizio 5", cars);
 
 /* ESERCIZIO 6
     Scrivi del codice per aggiungere un nuovo oggetto in ultima posizione nell'array "cars", rispettando la struttura degli altri elementi.
