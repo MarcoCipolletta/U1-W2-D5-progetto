@@ -60,7 +60,7 @@ const cars = [
     trims: ["life", "style", "r-line"]
   }
 ];
-const licensePlates = ["GO329HR", "EF456SH", "FJ789KL"];
+const licensePlates = ["GO329HR", "EF456SH", "FJ789KL", "ML987LF", "DI624DN"];
 for (let i = 0; i < cars.length; i++) {
   cars[i].licensePlate = licensePlates[i];
 }
@@ -70,7 +70,19 @@ console.log("esercizio 5", cars);
     Scrivi del codice per aggiungere un nuovo oggetto in ultima posizione nell'array "cars", rispettando la struttura degli altri elementi.
     Successivamente, rimuovi l'ultimo elemento della proprietà "trims" da ogni auto.
 */
+const newcar = {
+  brand: "Audi",
+  model: "A1",
+  color: "withe",
+  trims: ["business", "style", "r-line"],
+  licensePlates: licensePlates[4]
+};
+cars.push(newcar);
+for (let i = 0; i < cars.length; i++) {
+  cars[i].trims.pop();
+}
 
+console.log("esercizio 6", cars);
 /* ESERCIZIO 7
     Scrivi del codice per salvare il primo elemento della proprietà "trims" di ogni auto nel nuovo array "justTrims", sotto definito.
 */
