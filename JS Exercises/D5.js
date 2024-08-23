@@ -10,19 +10,24 @@ REGOLE
 /* ESERCIZIO 1
     Dato il seguente array, scrivi del codice per stampare ogni elemento dell'array in console.
 */
+
 const pets = ["dog", "cat", "hamster", "redfish"];
 
 for (let i = 0; i < pets.length; i++) {
   console.log("esercizio1", pets[i]);
 }
+
 /* ESERCIZIO 2
     Scrivi del codice per ordinare alfabeticamente gli elementi dell'array "pets".
 */
+
 console.log("esercizio2", pets.sort());
 
 /* ESERCIZIO 3
     Scrivi del codice per stampare nuovamente in console gli elementi dell'array "pets", questa volta in ordine invertito.
 */
+
+console.log("esercizo 3", pets.reverse());
 
 /* ESERCIZIO 4
     Scrivi del codice per spostare il primo elemento dall'array "pets" in ultima posizione.
